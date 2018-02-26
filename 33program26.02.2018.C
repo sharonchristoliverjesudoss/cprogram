@@ -3,13 +3,13 @@
 int main()
 {
    char s[100];
-   int l,count=0,i;
+   int l,count=0,j;
    clrscr();
    scanf("%s",s);
    l=strlen(s);
-   for(i=0;i<l;i++)
+   for(j=0;j<l;j++)
    {
-       if(s[i]==' ')
+       if(s[j]==' ')
        count++;
        printf("%d",count);
        else
